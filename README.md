@@ -1,11 +1,14 @@
 ## Setup
 
-- Install [ffmpeg]([ffmpeg](https://www.ffmpeg.org/download.html#build-mac))
-  
 - Install python packages
 > pip install -r requirements.txt
 
+## Webcam
 
-## Run
+> python webcam.py
 
-> sh run.sh
+## RTSP Stream
+
+- Install [ffmpeg]([ffmpeg](https://www.ffmpeg.org/download.html#build-mac)) for rtsp stream
+  
+> python rtsp.py
